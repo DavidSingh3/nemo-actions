@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Refresh Thumbnails
+Comment=Refreshes thumbnails
+Exec=<refresh-thumbnails.sh %F>
+Icon-Name=folder
+Selection=any
+Extensions=any
+Quote=double
+Accelerator=c

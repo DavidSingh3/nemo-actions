@@ -1,0 +1,8 @@
+[Nemo Action]
+Active=true
+Name=Dig Into Directory
+Comment=Digs into the current directory until no more single subdirectories appear
+Exec=<dig.sh %F>
+Selection=any
+Extensions=dir;
+EscapeSpaces=true

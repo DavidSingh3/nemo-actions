@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Copy Path
+Comment=Copies this path to the clipboard
+Exec=<copy-path.sh %F>
+Icon-Name=folder
+Selection=any
+Extensions=any
+Quote=double
+Accelerator=c

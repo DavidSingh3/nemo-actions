@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Open in snakeviz
+Comment=Runs a browser-based visualizer for the cProfile pstats file
+Exec=<snakeviz.sh %F>
+Icon-Name=folder
+Selection=single
+Extensions=pstats
+Quote=double
+Accelerator=c
