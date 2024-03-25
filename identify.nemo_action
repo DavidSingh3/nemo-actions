@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=Identify
+Comment=Open terminal and run identify -verbose on selected file
+Exec=gnome-terminal -- bash -c 'identify -verbose "%F" | less'
+Selection=notnone
+Extensions=png;jpg;jpeg;
+
