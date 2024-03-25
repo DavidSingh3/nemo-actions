@@ -1,0 +1,6 @@
+[Nemo Action]
+Name=Inspect DFLIMG
+Comment=View info about a DFLIMG
+Exec=gnome-terminal -- bash -c '~/.local/share/nemo/actions/inspect-dflimg.py %F | less -R'
+Selection=any
+Extensions=png;jpg;jpeg;
